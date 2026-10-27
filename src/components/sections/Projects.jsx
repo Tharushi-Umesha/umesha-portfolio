@@ -1,4 +1,4 @@
-import { Github, ExternalLink } from 'lucide-react';
+import { Github} from 'lucide-react';
 
 export const Projects = () => {
     const projects = [
@@ -37,6 +37,19 @@ export const Projects = () => {
             description: "A modern task and project management system built with Next.js (frontend) and FastAPI with Python (backend). Features secure user authentication, role-based access control, comprehensive task management, and a beautiful responsive UI.",
             tech: ["Next.js", "FastAPI", "MySQL"],
             github: "https://github.com/Tharushi-Umesha/novavantix_project"
+        },
+        {
+            title: "Business AI Agent",
+            description: "Developed an AI-powered task management assistant that interprets natural-language requests and uses LLM tool calling to manage business tasks. Integrated Python tools with PostgreSQL for persistent task creation, retrieval, completion, and deletion, using a locally running Qwen 2.5 3B model through Ollama.",
+            tech: [
+                "Python",
+                "Streamlit",
+                "Ollama",
+                "Qwen 2.5 3B",
+                "PostgreSQL",
+                "LLM Tool Calling"
+            ],
+            github: "https://github.com/Tharushi-Umesha/business-ai-agent"
         }
     ];
 
